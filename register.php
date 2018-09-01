@@ -1,5 +1,11 @@
 <?php 
+include("includes/classes/Account.php");
+
+$account = new Account();
+
 include("includes/handlers/register-handler.php");
+include("includes/handlers/login-handler.php");
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,16 +22,16 @@ include("includes/handlers/register-handler.php");
 	  <div id="inputContainer">
 		<form id="loginForm"  class="form-group" action="register.php" method="POST">
 <!-- 			display-4   style="color: white" -->
-			<h2 class="">Login to your account</h2>
+			<h2 class="display-5">Login to your account</h2>
 			<p>
 				<label for="loginUsername">Username</label>
-				<input id="loginUsername"  class="form-control form-control-md" name="loginUsername" type="text" placeholder="Username" required>
+				<input id="loginUsername"  class="form-control form-control-sm" name="loginUsername" type="text" placeholder="Username" required>
 			</p>
 			<p>
 				<label for="loginPassword">Password</label>
 				<input id="loginPassword"  class="form-control form-control-md" name="loginPassword" type="password" placeholder="Password" required>
 			</p>
-			<button type="submit"  class="btn btn-outline-light btn-block" name="loginButton">LOG IN</button>
+			<button type="submit"  class="btn btn-primary" name="loginButton">LOG IN</button>
 		</form>
 
 		<form id="registerForm"  class="form-group" action="register.php" method="POST">

@@ -1,3 +1,17 @@
 body{
 /*	background-image: url(../img/heic1313b.jpg);*/
 }
+.navbar{
+	min-height: 100px !important;
+	background-color: #022b51 !important;
+}
+.navbar-right{
+	font-size: 16px;
+	color: #dde0e3;
+}
+.phones{
+	    font-size: .92308em;
+/*	    margin-left: 35px;*/
+	    margin-bottom: 80px;
+
+}
