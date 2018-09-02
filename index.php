@@ -14,16 +14,16 @@
 	 	    <div class="phones text-white">
          <i class="fa fa-phone"></i> (333) 333-333-2222, (333) 333-333-2222, (333) 333-333-2222
        </div>
-	 	  <div  class="navbar-brand" style="margin-right: 35px;">
+	 	  <a href="index.php" class="navbar-brand" style="margin-right: 35px;">
         <img src="assets/img/192.png" alt="logo" title="Интернет магазин розетка">
-      </div>
+      </a>
     <div class="container">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-       <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+       <form class="form-inline ">
+    <input class="form-control col-lg-11 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
       </div>
