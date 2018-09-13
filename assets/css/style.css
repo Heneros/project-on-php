@@ -1,8 +1,9 @@
 body{
-/*	background-image: url(../img/heic1313b.jpg);*/
+font-family: Arial;
+font-size: 16px !important;
 }
-.navbar{
-	min-height: 100px !important;
+nav{
+	max-height: 191px !important;
 	background-color: #022b51 !important;
 }
 .navbar-right{
@@ -15,3 +16,29 @@ body{
 	    margin-bottom: 80px;
 
 }
+
+#enter-register, a{
+	color: #bcc7d1 !important;
+	text-decoration: underline;
+	font-size: 16px !important;
+}
+ #enter-register:hover{
+	color: #fff !important;
+}
+i.fa-search {
+	color: #000000;
+	width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: -26px;
+  position: relative;
+  z-index: 1;
+  float: left;
+}
+i.fa-search + input[type="search"] {
+  padding-left: 26px;
+  width: 500px !important;
+  font-size: 16px;
+}
+
