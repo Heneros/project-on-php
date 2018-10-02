@@ -1,4 +1,4 @@
 # project-on-php
 
 
-Just site
+Just site with catalog products.
