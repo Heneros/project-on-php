@@ -16,15 +16,21 @@
          <div class="phones mb-2">
           <i class="fa fa-phone fa-lg "></i> 
          (333) 333-333-2222,
-         (321) 32320-03 545-46
+         (321) 32320-03 545-46,
          (334) 2345-43-3542
+   </div>
+   <div class="links_languages">
+        <a href="#!"  class="links_nav disabled" id="not_active">RU</a> 
+        <a href="#!" class="links_nav">UA</a>
    </div>
       <a href="index.php" class="navbar-brand ml-7">
         <img src="assets/img/192.png" class="logo" alt="logo" title="logo">    
       </a>
-    <i class="fa fa-search" aria-hidden="true"></i>
-    <input type="search" class="form-searching" placeholder="Поиск" aria-label="Search">
-    <button class="btn btn-success" type="submit">Поиск</button>
+
+    <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+    <input type="search" class="searching-form" placeholder="Поиск" aria-label="Search">
+    <button class="btn-search" type="submit">Поиск</button>
+
     </div>
   </nav>
 </body>

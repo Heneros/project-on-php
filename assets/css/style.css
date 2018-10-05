@@ -3,30 +3,73 @@ font-family: Arial;
 font-size: 16px !important;
 }
 nav{
-	width: 100%;
+	min-width: 100%;
 	height: 100px;
 	background-color: #122538;
+    display: flex !important;
+    justify-content: stretch;
+
+}
+.container{
+  margin-left: 200px !important;
 }
 .phones{
 	font-size: 13px;
 	color: #fff;
 }
-.form-searching{
+
+.searching-form{
     width: 457px;
     height: 40px;
+    margin-left: 165px;
+   border-radius: 9px;
 }
 i.fa-search {
-    color: #000000;
+    color: #4d4b4b;
     width: 26px;
     height: 26px;
-    line-height: 26px;
+    line-height: 8px;
     text-align: center;
-    margin-right: -29px;
+    margin-right: -34px;
     position: relative;
     z-index: 1;
+    left: 15%;
   }
 i.fa-search + input[type="search"] {
-  padding-left: 26px;
+  padding-left: 34px;
   width: 500px !important;
-  font-size: 16px;
+  font-size: 19px;
+}
+.links_languages{
+    justify-content: center;
+    display: flex;
+    line-height: 0;
+    position: relative;
+    bottom: 18px;
+    right: 16.5%
+}
+.links_nav{
+position: relative;
+left: 52px;
+color: #fff;
+font-size: 14px;
+}
+.links_nav:hover{
+  color: #fff;
+}
+#not_active:after{
+content: "|";
+padding: 0 6px 0 6px;
+}
+.btn-search{
+    background-color: #00bc52;
+    color: #fff;
+    width: 92px;
+    height: 43px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-search:hover{
+  background-color: #00a046;
 }
