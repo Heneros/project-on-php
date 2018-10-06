@@ -6,9 +6,9 @@ nav{
 	min-width: 100%;
 	height: 100px;
 	background-color: #122538;
-    display: flex !important;
-    justify-content: stretch;
-
+  display: flex !important;
+  justify-content: stretch;
+  position: relative;
 }
 .container{
   margin-left: 200px !important;
@@ -73,3 +73,28 @@ padding: 0 6px 0 6px;
 .btn-search:hover{
   background-color: #00a046;
 }
+
+.nav-top-menu{
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 63%;
+    left: 33.4%;
+}
+.top-list{
+  display: inline-block;
+}
+.nav-top-menu > .top-list > a{
+    color: #fff;
+    font-size: 13px;
+    list-style: none;
+    font-family: Arial;
+    display: inline-block;
+    margin-right: 10px;
+}
+#carousel{ 
+    height: 642px;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+ }
