@@ -79,7 +79,7 @@ padding: 0 6px 0 6px;
     justify-content: center;
     position: absolute;
     bottom: 63%;
-    left: 33.4%;
+    left: 30.4%;
 }
 .top-list{
   display: inline-block;
@@ -92,9 +92,42 @@ padding: 0 6px 0 6px;
     display: inline-block;
     margin-right: 10px;
 }
-#carousel{ 
-    height: 642px;
+  
+      #carousel {
     width: 1000px;
-    margin: 0 auto;
-    overflow: hidden;
- }
+    height: 364px;
+    left: 455px;
+    top: 55px;
+    position:relative;
+    clear:both;
+    overflow:hidden;
+    background:#FFF;
+}
+    #carousel img {
+        visibility:hidden;
+        cursor:pointer;
+        max-width: 605px;
+      }
+      #prev{
+    position: absolute;
+    top: 167px;
+    left: 42px;
+}
+#next{
+    position: absolute;
+    top: 167px;
+    left: 92%;
+}
+.fa-angle-right, .fa-angle-left {
+  color: #d1d1d2;
+}
+/* .fa-angle-right, .fa-angle-left:hover{
+color: #8597af;
+}
+*/
+.fa-angle-right:hover{
+color: #8597af;
+}
+.fa-angle-left:hover{
+color: #8597af;
+}

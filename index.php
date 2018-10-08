@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="icon" type="image/ic" href="assets/img/favicon.ico">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/jquery.flipster.min.css">
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	 <nav>	 
@@ -56,34 +56,28 @@
     <button class="btn-search" type="submit">Поиск</button>
     </div>
   </nav>
-<div id="carousel">
-        <ul >
-            <li >
-                <img src="assets/img/1.jpg">
-            </li>
-            <li>
-                <img  src="assets/img/1.jpg">
-             </li>
-            <li>
-                <img  src="assets/img/1.jpg">
-            </li>
-            <li>
-                <img  src="assets/img/1.jpg">
-            </li>
-            <li>
-                <img  src="assets/img/1.jpg">
-            </li>
-            <li>
-                <img  src="assets/img/1.jpg">
-            </li>
-            <li>
-                <img  src="assets/img/1.jpg">
-            </li>
-        </ul>
+    <div id="carousel">
+      <a href="#"><img src="assets/img/1.jpg" id="item-1" /></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-2" /></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-3" /></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-4" /></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-5" /></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-6" /></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-7" /></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-8" /></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-9" /></a>
+       <a href="#" id="prev">
+       	<i class="fa fa-angle-left fa-5x"></i>
+       </a>  
+       <a href="#" id="next">
+       	<i class="fa fa-angle-right fa-5x"></i>
+       </a>
     </div>
+
+
   <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.flipster.min.js"></script>
   <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/jquery.waterwheelCarousel.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>
