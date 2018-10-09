@@ -44,16 +44,25 @@
           <a href="#!">Контакты</a>
         </li>
         <li class="top-list">
-          <a href="#!">Отследить заказ</a>
+          <a href="#!">
+          <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+          Отследить заказ</a>
         </li>
         <li class="top-list">
           <a href="#!">Продавать на Розетке</a>
         </li>
       </ul>
-
-    <i class="fa fa-search fa-lg" aria-hidden="true"></i>
-    <input type="search" class="searching-form" placeholder="Поиск" aria-label="Search">
+   <ul class="navbar-nav navbar-right ml-auto">
+        <li class="nav-item ml-auto" style="margin-top: 7px;">
+          <li class="nav-item mt-2">
+          Здравствуйте, войдите в личный кабинет
+          </li>
+</ul>
+   <div class="form-search">
+   <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+    <input type="search" class="input-search" placeholder="Поиск" aria-label="Search">
     <button class="btn-search" type="submit">Поиск</button>
+       </div>
     </div>
   </nav>
     <div id="carousel">

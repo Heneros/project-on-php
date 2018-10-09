@@ -1,6 +1,10 @@
+@import url("font-awesome.min.css");
+
+
 body{
 font-family: Arial;
 font-size: 16px !important;
+overflow: hidden;
 }
 nav{
 	min-width: 100%;
@@ -12,17 +16,22 @@ nav{
 }
 .container{
   margin-left: 200px !important;
+  margin-right: 200px !important;
 }
 .phones{
 	font-size: 13px;
 	color: #fff;
 }
-
-.searching-form{
+.form-search{
+    position: relative;
+    bottom: 55px;
+}
+.input-search{
     width: 457px;
     height: 40px;
-    margin-left: 165px;
-   border-radius: 9px;
+    border-radius: 9px;
+    margin-left: 35%;
+
 }
 i.fa-search {
     color: #4d4b4b;
@@ -33,7 +42,7 @@ i.fa-search {
     margin-right: -34px;
     position: relative;
     z-index: 1;
-    left: 15%;
+    left: 36%;
   }
 i.fa-search + input[type="search"] {
   padding-left: 34px;
@@ -77,12 +86,15 @@ padding: 0 6px 0 6px;
 .nav-top-menu{
     display: inline-flex;
     justify-content: center;
-    position: absolute;
+    position: relative;
     bottom: 63%;
     left: 30.4%;
 }
 .top-list{
   display: inline-block;
+  position: relative;
+  bottom: 52px;
+  right: 141px;
 }
 .nav-top-menu > .top-list > a{
     color: #fff;
@@ -103,15 +115,15 @@ padding: 0 6px 0 6px;
     overflow:hidden;
     background:#FFF;
 }
-    #carousel img {
+#carousel img {
         visibility:hidden;
         cursor:pointer;
         max-width: 605px;
-      }
-      #prev{
-    position: absolute;
-    top: 167px;
-    left: 42px;
+}
+#prev  {
+  position: absolute;
+  top: 167px;
+  left: 42px;
 }
 #next{
     position: absolute;
@@ -121,13 +133,15 @@ padding: 0 6px 0 6px;
 .fa-angle-right, .fa-angle-left {
   color: #d1d1d2;
 }
-/* .fa-angle-right, .fa-angle-left:hover{
-color: #8597af;
-}
-*/
+
 .fa-angle-right:hover{
 color: #8597af;
 }
 .fa-angle-left:hover{
 color: #8597af;
+}
+
+.fa-map-marker{
+  color: #fff;
+  padding-right: 5px;
 }
