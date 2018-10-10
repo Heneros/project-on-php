@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="icon" type="image/ic" href="assets/img/favicon.ico">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/media.css">
   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -52,12 +53,12 @@
           <a href="#!">Продавать на Розетке</a>
         </li>
       </ul>
-   <ul class="navbar-nav navbar-right ml-auto">
+<!--    <ul class="navbar-nav navbar-right ml-auto">
         <li class="nav-item ml-auto" style="margin-top: 7px;">
           <li class="nav-item mt-2">
           Здравствуйте, войдите в личный кабинет
           </li>
-</ul>
+</ul> -->
    <div class="form-search">
    <i class="fa fa-search fa-lg" aria-hidden="true"></i>
     <input type="search" class="input-search" placeholder="Поиск" aria-label="Search">
@@ -66,15 +67,15 @@
     </div>
   </nav>
     <div id="carousel">
-      <a href="#"><img src="assets/img/1.jpg" id="item-1" /></a>
-      <a href="#"><img src="assets/img/1.jpg" id="item-2" /></a>
-      <a href="#"><img src="assets/img/1.jpg" id="item-3" /></a>
-      <a href="#"><img src="assets/img/1.jpg" id="item-4" /></a>
-      <a href="#"><img src="assets/img/1.jpg" id="item-5" /></a>
-      <a href="#"><img src="assets/img/1.jpg" id="item-6" /></a>
-      <a href="#"><img src="assets/img/1.jpg" id="item-7" /></a>
-      <a href="#"><img src="assets/img/1.jpg" id="item-8" /></a>
-      <a href="#"><img src="assets/img/1.jpg" id="item-9" /></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-1"></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-2"></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-3"></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-4"></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-5"></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-6"></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-7"></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-8"></a>
+      <a href="#"><img src="assets/img/1.jpg" id="item-9"></a>
        <a href="#" id="prev">
        	<i class="fa fa-angle-left fa-5x"></i>
        </a>  
