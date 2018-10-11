@@ -2,25 +2,40 @@
 	nav{
 		height: 150px;
 	}
+	.links_languages{
+    position: relative;
+    left: 7px;
+	}
 .nav-top-menu{
-	    position: relative;
-    bottom: 35%;
-    left: 54.4%;
+    position: absolute;
+    bottom: 17%;
+    left: 22.4%;
+    white-space: nowrap;
 }
-}
+
 .form-search{
 	  position: absolute;
     top: 56px;
     left: 20%;
 }
 i.fa-search + input[type="search"]{
-	  width: 350px !important;
+    position: relative;
+    right: 14%;
+    max-width: 251px;
 }
 .btn-search{
     position: relative;
     bottom: 41px;
     left: 115%;
 }
-img >.logo {
-	margin-top: 35px;
+.navbar-brand > img{
+    position: relative;
+    top: 48px;
+    right: 30px;
+    max-width: 200px;
+}
+i.fa-search{
+	  position: relative;
+    left: 37%;
+}
 }

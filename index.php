@@ -25,9 +25,13 @@
         <a href="#!"  class="links_nav disabled" id="not_active">RU</a> 
         <a href="#!" class="links_nav">UA</a>
    </div>
-      <a href="index.php" class="navbar-brand ml-7">
-        <img src="assets/img/192.png" class="logo" alt="logo" title="logo">    
+      <a href="index.php" class="navbar-brand">
+        <img src="assets/img/logo-dark.svg" class="logo" alt="logo" title="logo">    
       </a>
+    <div class="user-city">
+    Город<br>
+   <span><a href="#!">Киев</a></span>
+     </div>
       <ul class="nav-top-menu">
         <li class="top-list">
           <a href="#!">Вопросы и ответы</a>
@@ -53,12 +57,7 @@
           <a href="#!">Продавать на Розетке</a>
         </li>
       </ul>
-<!--    <ul class="navbar-nav navbar-right ml-auto">
-        <li class="nav-item ml-auto" style="margin-top: 7px;">
-          <li class="nav-item mt-2">
-          Здравствуйте, войдите в личный кабинет
-          </li>
-</ul> -->
+
    <div class="form-search">
    <i class="fa fa-search fa-lg" aria-hidden="true"></i>
     <input type="search" class="input-search" placeholder="Поиск" aria-label="Search">
