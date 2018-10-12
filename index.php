@@ -28,10 +28,15 @@
       <a href="index.php" class="navbar-brand">
         <img src="assets/img/logo-dark.svg" class="logo" alt="logo" title="logo">    
       </a>
-    <div class="user-city">
+    <div class="user-city ml-5">
     Город<br>
-   <span><a href="#!">Киев</a></span>
+   <span><a href="#!"id="button">Киев</a></span>
+    <i class="fa fa-chevron-down" aria-hidden="true"></i>
      </div>
+<!-- <div class="modal">
+  <div class="modal--body">This is a modal dialog box that blurs the page behind it.</div>
+</div>
+ -->
       <ul class="nav-top-menu">
         <li class="top-list">
           <a href="#!">Вопросы и ответы</a>
