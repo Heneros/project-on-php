@@ -156,5 +156,18 @@ color: #8597af;
   color: #fff;
   padding-right: 5px;
 }
+.user-register{
+  color: #cfd7e0;
+  font-size: 15px;
+}
 
-
+.user-register > a {
+    color: #cfd7e0;
+    text-decoration: underline;
+}
+.user-register > a:hover{
+  color: #fff;
+}
+.fa-user{
+  padding: 0 2px 0 2px;
+}

@@ -56,7 +56,8 @@
         <li class="top-list">
           <a href="#!">
           <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
-          Отследить заказ</a>
+          Отследить заказ
+        </a>
         </li>
         <li class="top-list">
           <a href="#!">Продавать на Розетке</a>
@@ -69,6 +70,13 @@
     <button class="btn-search" type="submit">Поиск</button>
        </div>
     </div>
+    <div class="user-register">
+    Здравствуйте,
+  <a href="#!">
+ <i class="fa fa-user" aria-hidden="true"></i>
+  войдите в личный кабинет</a>
+  </div>
+
   </nav>
     <div id="carousel">
       <a href="#"><img src="assets/img/1.jpg" id="item-1"></a>
