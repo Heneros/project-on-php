@@ -46,7 +46,7 @@ i.fa-search + input[type="search"] {
   font-size: 19px;
 }
 .btn-search{
-    background-color: #00bc52;
+    background-color: #00a046 ;
     color: #fff;
     width: 92px;
     height: 43px;
@@ -58,7 +58,7 @@ i.fa-search + input[type="search"] {
     left: 122%;
 }
 .btn-search:hover{
-  background-color: #00a046;
+  background-color: #00bc52;
 }
 .navbar-brand{
   margin-bottom: 32px;
@@ -100,12 +100,15 @@ position: absolute;
     display: inline-block;
     color: #fff;
 }
-.user-city > span> a{
-    color: #fff;
+.user-city > span{
     border-bottom: 1px dotted;
     font-weight: 600;
-/*    text-decoration: underline;
-*/
+}
+.fa-chevron-down{
+  color: #b4b1b1;
+}
+.fa-chevron-down:hover{
+  color: #fff;
 }
 .nav-top-menu > .top-list > a{
     color: #fff;
@@ -115,8 +118,7 @@ position: absolute;
     display: inline-block;
     margin-right: 10px;
 }
-  
-      #carousel {
+    #carousel {
     width: 1000px;
     height: 364px;
     left: 455px;
@@ -163,6 +165,7 @@ color: #8597af;
 
 .user-register > a {
     color: #cfd7e0;
+
     text-decoration: underline;
 }
 .user-register > a:hover{

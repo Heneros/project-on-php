@@ -3,11 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Магазин Rozetka</title>
+  <meta name="description" content="Example online-shop">
+  <meta name="keywords" content="shop">
+  <meta name="author" content="Heneros">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/ic" href="assets/img/favicon.ico">
   <link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
-  <link rel="icon" type="image/ic" href="assets/img/favicon.ico">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/media.css">
   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
@@ -29,14 +32,10 @@
         <img src="assets/img/logo-dark.svg" class="logo" alt="logo" title="logo">    
       </a>
     <div class="user-city ml-5">
-    Город<br>
-   <span><a href="#!"id="button">Киев</a></span>
+    Город <br>
+
     <i class="fa fa-chevron-down" aria-hidden="true"></i>
      </div>
-<!-- <div class="modal">
-  <div class="modal--body">This is a modal dialog box that blurs the page behind it.</div>
-</div>
- -->
       <ul class="nav-top-menu">
         <li class="top-list">
           <a href="#!">Вопросы и ответы</a>
@@ -57,6 +56,7 @@
           <a href="#!">
           <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
           Отследить заказ
+
         </a>
         </li>
         <li class="top-list">
@@ -68,8 +68,14 @@
    <i class="fa fa-search fa-lg" aria-hidden="true"></i>
     <input type="search" class="input-search" placeholder="Поиск" aria-label="Search">
     <button class="btn-search" type="submit">Поиск</button>
+       <span style="color: red" data-toggle="modal" data-target="#myModal">
+Киев
+</span>
        </div>
+
     </div>
+
+
     <div class="user-register">
     Здравствуйте,
   <a href="#!">
@@ -96,6 +102,29 @@
        </a>
     </div>
 
+
+
+
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.js"></script>
