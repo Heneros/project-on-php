@@ -18,7 +18,9 @@
 <body>
 	 <nav>	 
     <div class="container">
-         <div class="phones mb-2">
+      <div class="row">
+      <!--First level navbar-->
+         <div class="phones ">
           <i class="fa fa-phone fa-lg "></i> 
          (333) 333-333-2222,
          (321) 32320-03 545-46,
@@ -28,14 +30,6 @@
         <a href="#!"  class="links_nav disabled" id="not_active">RU</a> 
         <a href="#!" class="links_nav">UA</a>
    </div>
-      <a href="index.php" class="navbar-brand">
-        <img src="assets/img/logo-dark.svg" class="logo" alt="logo" title="logo">    
-      </a>
-    <div class="user-city ml-5">
-    Город <br>
-
-    <i class="fa fa-chevron-down" aria-hidden="true"></i>
-     </div>
       <ul class="nav-top-menu">
         <li class="top-list">
           <a href="#!">Вопросы и ответы</a>
@@ -56,34 +50,50 @@
           <a href="#!">
           <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
           Отследить заказ
-
         </a>
         </li>
         <li class="top-list">
           <a href="#!">Продавать на Розетке</a>
         </li>
       </ul>
+</div>
+      <!--End First  level navbar-->
+
+      <!--Second level navbar-->
+  <div class="user-city ">
+    Город <br> 
+    <span  data-toggle="modal" data-target="#myModal">Киев</span>
+    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+     </div>
+
+   <div class="logo-site">
+     <a href="#!">
+        <img src="assets/img/logo-dark.svg" alt="logo" title="logo">    
+      </a>
+   </div>
 
    <div class="form-search">
    <i class="fa fa-search fa-lg" aria-hidden="true"></i>
     <input type="search" class="input-search" placeholder="Поиск" aria-label="Search">
     <button class="btn-search" type="submit">Поиск</button>
-       <span style="color: red" data-toggle="modal" data-target="#myModal">
-Киев
-</span>
        </div>
 
+ 
     </div>
+      <!--End Second level navbar-->
 
 
+
+    <!--Outside the container-->
     <div class="user-register">
     Здравствуйте,
   <a href="#!">
  <i class="fa fa-user" aria-hidden="true"></i>
   войдите в личный кабинет</a>
   </div>
+</nav>
 
-  </nav>
+
     <div id="carousel">
       <a href="#"><img src="assets/img/1.jpg" id="item-1"></a>
       <a href="#"><img src="assets/img/1.jpg" id="item-2"></a>
@@ -103,10 +113,7 @@
     </div>
 
 
-
-
-
-
+    <!--Modal window from navbar-->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -125,6 +132,7 @@
     </div>
   </div>
 </div>
+<!--End Modal window from navbar-->
 
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.js"></script>

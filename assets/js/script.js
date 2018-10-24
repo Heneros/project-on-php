@@ -15,7 +15,7 @@
       });
 
   $(document).ready(function () {
-    $('#myModal').on('hide.bs.modal  ', function () {
+    $('#myModal').on('hide.bs.modal', function () {
     $('#myInput').trigger('focus');
      })
   });

@@ -19,27 +19,7 @@ nav{
 	font-size: 13px;
 	color: #fff;
 }
-.form-search{
-    position: absolute;
-    top: 6px;
-    left: 20%;
-}
-.input-search{
-    height: 40px;
-    border-radius: 9px;
-    margin-left: 36%;
-}
-i.fa-search {
-    color: #4d4b4b;
-    width: 26px;
-    height: 26px;
-    line-height: 8px;
-    text-align: center;
-    margin-right: -34px;
-    position: relative;
-    left: 37%;
-    top: 42px;
-  }
+
 i.fa-search + input[type="search"] {
   padding-left: 34px;
   width: 574px;
@@ -60,9 +40,7 @@ i.fa-search + input[type="search"] {
 .btn-search:hover{
   background-color: #00bc52;
 }
-.navbar-brand{
-  margin-bottom: 32px;
-}
+
 .links_languages{
     justify-content: center;
     display: flex;
@@ -86,7 +64,7 @@ padding: 0 6px 0 6px;
 }
 
 .nav-top-menu{
-position: absolute;
+    position: absolute;
     bottom: 13px;
     left: 41.4%;
 }
@@ -96,14 +74,8 @@ position: absolute;
   bottom: 52px;
   right: 141px;
 }
-.user-city{
-    display: inline-block;
-    color: #fff;
-}
-.user-city > span{
-    border-bottom: 1px dotted;
-    font-weight: 600;
-}
+
+
 .fa-chevron-down{
   color: #b4b1b1;
 }
@@ -165,7 +137,6 @@ color: #8597af;
 
 .user-register > a {
     color: #cfd7e0;
-
     text-decoration: underline;
 }
 .user-register > a:hover{
@@ -174,3 +145,43 @@ color: #8597af;
 .fa-user{
   padding: 0 2px 0 2px;
 }
+
+
+.user-city{
+    display: inline-block;
+    color: #fff;
+    margin-left: 26%;
+    margin-top: 1%;
+
+}
+.user-city > span{
+    border-bottom: 1px dotted;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.logo-site{
+    max-width: 300px;
+}
+
+.form-search{
+    position: absolute;
+    top: 6px;
+    left: 20%;
+}
+.input-search{
+    height: 40px;
+    border-radius: 9px;
+    margin-left: 36%;
+}
+i.fa-search {
+    color: #4d4b4b;
+    width: 26px;
+    height: 26px;
+    line-height: 8px;
+    text-align: center;
+    margin-right: -34px;
+    position: relative;
+    left: 37%;
+    top: 42px;
+  }
