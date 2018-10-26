@@ -22,7 +22,7 @@ nav{
 
 i.fa-search + input[type="search"] {
   padding-left: 34px;
-  width: 574px;
+  width: 754px;
   font-size: 19px;
 }
 .btn-search{
@@ -34,8 +34,7 @@ i.fa-search + input[type="search"] {
     border-radius: 10px;
     cursor: pointer;
     position: relative;
-    bottom: 41px;
-    left: 122%;
+    bottom: 2px;
 }
 .btn-search:hover{
   background-color: #00bc52;
@@ -46,8 +45,9 @@ i.fa-search + input[type="search"] {
     display: flex;
     line-height: 0;
     position: relative;
-    bottom: 18px;
-    right: 16.5%
+    position: relative;
+    top: 9px;
+    right: 2.5%;
 }
 .links_nav{
 position: relative;
@@ -150,7 +150,7 @@ color: #8597af;
 .user-city{
     display: inline-block;
     color: #fff;
-    margin-left: 26%;
+    margin-left: 27%;
     margin-top: 1%;
 
 }
@@ -161,18 +161,19 @@ color: #8597af;
 }
 
 .logo-site{
-    max-width: 300px;
+    position: absolute;
+    bottom: 19px;
 }
 
 .form-search{
     position: absolute;
-    top: 6px;
-    left: 20%;
+    top: 40px;
+    left: 32%;
 }
 .input-search{
     height: 40px;
     border-radius: 9px;
-    margin-left: 36%;
+/*    margin-left: 36%;*/
 }
 i.fa-search {
     color: #4d4b4b;
@@ -182,6 +183,11 @@ i.fa-search {
     text-align: center;
     margin-right: -34px;
     position: relative;
-    left: 37%;
-    top: 42px;
+    right: 0%;
+    top: -1px;
   }
+  
+.fa-times-circle{
+  color: #a6a5a5; 
+  cursor: pointer;
+}  

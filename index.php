@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/media.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -60,10 +61,11 @@
       <!--End First  level navbar-->
 
       <!--Second level navbar-->
+<div class="row">
   <div class="user-city ">
     Город <br> 
     <span  data-toggle="modal" data-target="#myModal">Киев</span>
-    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    <i class="fa fa-chevron-down" data-target="#myModal" aria-hidden="true"></i>
      </div>
 
    <div class="logo-site">
@@ -76,10 +78,10 @@
    <i class="fa fa-search fa-lg" aria-hidden="true"></i>
     <input type="search" class="input-search" placeholder="Поиск" aria-label="Search">
     <button class="btn-search" type="submit">Поиск</button>
-       </div>
-
+   </div>
+</div>
  
-    </div>
+ </div><!---End Container-->
       <!--End Second level navbar-->
 
 
@@ -118,16 +120,15 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h5 class="modal-title" id="exampleModalLongTitle">Выберите свой город</h5>
+       <i class="fa fa-times-circle fa-2x" style="font-size: 1.6em;" aria-hidden="true" data-dismiss="modal" aria-label="Close" ></i>
       </div>
       <div class="modal-body">
+<i class="fa fa-truck" aria-hidden="true"></i>
+        доставляем заказы по всей Украине!
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+
       </div>
     </div>
   </div>
