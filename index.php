@@ -22,7 +22,7 @@
       <div class="row">
       <!--First level navbar-->
          <div class="phones ">
-          <i class="fa fa-phone fa-lg "></i> 
+         <i class="fa fa-phone-volume fa-lg"></i>
          (333) 333-333-2222,
          (321) 32320-03 545-46,
          (334) 2345-43-3542
@@ -49,7 +49,7 @@
         </li>
         <li class="top-list">
           <a href="#!">
-          <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+         <i class="fa fa-map-marker-alt fa-lg"></i>
           Отследить заказ
         </a>
         </li>
@@ -117,19 +117,26 @@
 
     <!--Modal window from navbar-->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
+  <div class="modal-dialog " role="document">
+    <div class="row">
+    <div class="modal-content ">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Выберите свой город</h5>
        <i class="fa fa-times-circle fa-2x" style="font-size: 1.6em;" aria-hidden="true" data-dismiss="modal" aria-label="Close" ></i>
       </div>
-      <div class="modal-body">
-<i class="fa fa-truck" aria-hidden="true"></i>
+      <div class="modal-body  ">
+       <i class="fa fa-truck mr-2" aria-hidden="true"></i>
+        <p class="modal-text">
         доставляем заказы по всей Украине!
+      </p>
+<div class="cities-select">
+  <a href="#!">Киев</a><a href="#!">Одесса</a><a href="#!">Днепр</a> 
+  <a href="#!">Харьков</a><a href="#!">Запорожье</a><a href="#!">Львов</a> 
+</div>
       </div>
       <div class="modal-footer">
-
       </div>
+  </div>
     </div>
   </div>
 </div>

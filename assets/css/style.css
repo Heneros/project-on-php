@@ -191,3 +191,23 @@ i.fa-search {
   color: #a6a5a5; 
   cursor: pointer;
 }  
+
+.modal-text{
+    display: inline-flex;
+    align-items: baseline;
+    white-space: nowrap;
+    color: #585555;
+}
+.cities-select{
+    justify-content: space-around;
+    font-size: 19px;
+    display: flex;
+    text-align: center;
+}
+.cities-select>a:hover{
+  color: #ff8484;
+}
+.cities-select>a:nth-child(1){
+    background-color: #a1d8b6;
+    border-radius: 7px;
+}
