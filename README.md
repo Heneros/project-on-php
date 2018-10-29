@@ -8,3 +8,6 @@ This site for not commercial purposes, just for show my skills.
 
 
 
+Original:
+
+https://rozetka.com.ua/

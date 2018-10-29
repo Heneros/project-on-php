@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Магазин Rozetka</title>
   <meta name="description" content="Example online-shop">
-  <meta name="keywords" content="shop">
+  <meta name="keywords" content="shop, online, buy">
   <meta name="author" content="Heneros">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -89,7 +89,7 @@
     <!--Outside the container-->
     <div class="user-register">
     Здравствуйте,
-  <a href="#!">
+  <a href="register.php">
  <i class="fa fa-user" aria-hidden="true"></i>
   войдите в личный кабинет</a>
   </div>

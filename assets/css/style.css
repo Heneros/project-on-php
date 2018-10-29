@@ -204,10 +204,13 @@ i.fa-search {
     display: flex;
     text-align: center;
 }
+
 .cities-select>a:hover{
   color: #ff8484;
 }
-.cities-select>a:nth-child(1){
+.cities-select>a:first-child{
     background-color: #a1d8b6;
     border-radius: 7px;
+    text-transform: none;
+    text-decoration: none;
 }
