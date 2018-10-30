@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Магазин Rozetka</title>
-  <meta name="description" content="Example online-shop">
+	<title>Магазин Dophi</title>
+  <meta name="description" content="Online-shop">
   <meta name="keywords" content="shop, online, buy">
   <meta name="author" content="Heneros">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,7 +54,7 @@
         </a>
         </li>
         <li class="top-list">
-          <a href="#!">Продавать на Розетке</a>
+          <a href="#!">Продавать на Dophi</a>
         </li>
       </ul>
 </div>
@@ -127,7 +127,7 @@
       <div class="modal-body  ">
        <i class="fa fa-truck mr-2" aria-hidden="true"></i>
         <p class="modal-text">
-        доставляем заказы по всей Украине!
+       We deliver all around world
       </p>
 <div class="cities-select">
   <a href="#!">Киев</a><a href="#!">Одесса</a><a href="#!">Днепр</a> 
