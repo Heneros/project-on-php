@@ -64,8 +64,10 @@
 <div class="row">
   <div class="user-city ">
     Город <br> 
-    <span  data-toggle="modal" data-target="#myModal">Киев</span>
-    <i class="fa fa-chevron-down" data-target="#myModal" aria-hidden="true"></i>
+    <span  data-toggle="modal" data-target="#myModal">Киев
+  <i class="fa fa-chevron-down" data-target="#myModal" aria-hidden="true"></i>
+    </span>
+
      </div>
 
    <div class="logo-site">
@@ -133,8 +135,14 @@
   <a href="#!">Киев</a><a href="#!">Одесса</a><a href="#!">Днепр</a> 
   <a href="#!">Харьков</a><a href="#!">Запорожье</a><a href="#!">Львов</a> 
 </div>
+<div class="choose_city mt-4">
+  <label  for="example_cities">Или введите другой населенный пункт Украины</label>
+  <input type="text" value="Киев" class="form-control">
+  <p style="font-size: 12px;">Например, <a href="#!">Правда</a></p>
+</div>
       </div>
       <div class="modal-footer">
+      <p style="font-size: 12px;"> Вибір міста допоможе надати актуальну інформацію про наявність товару, його ціну та способи доставки у вашому місті! Це допоможе зберегти більше вільного часу для вас</p> 
       </div>
   </div>
     </div>
