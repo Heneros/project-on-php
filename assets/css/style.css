@@ -223,3 +223,16 @@ i.fa-search {
     text-transform: none;
     text-decoration: none;
 }
+
+
+#userModal{
+    display: block;
+    position: absolute;
+    top: 3%;
+    right: 0;
+    left: 71%;
+}
+.title-modal-register{
+  font-weight: 400;
+  margin-bottom: 15px;
+}

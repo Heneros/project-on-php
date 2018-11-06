@@ -91,9 +91,10 @@
     <!--Outside the container-->
     <div class="user-register">
     Здравствуйте,
-  <a href="register.php">
+  <a href="#!" data-toggle="modal" data-target="#userModal">
  <i class="fa fa-user" aria-hidden="true"></i>
-  войдите в личный кабинет</a>
+  войдите в личный кабинет
+     </a>
   </div>
 </nav>
 
@@ -117,7 +118,7 @@
     </div>
 
 
-    <!--Modal window from navbar-->
+<!--Modal window from navbar-->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog " role="document">
     <div class="row">
@@ -149,6 +150,34 @@
   </div>
 </div>
 <!--End Modal window from navbar-->
+
+<!--Modal window from user-rigeste-->
+<div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <div class="row">
+    <div class="modal-content ">
+    <div class="modal-body">
+  <h5 class="title-modal-register">Вход в интернет-магазин</h5>
+     <form class="form-group"> 
+      <label>Эл. почта или телефон</label><br>
+      <input type="email" class="form-control" style="width: 250px; height: 35px;">
+       <label>Пароль</label><br>
+       <input type="password" class="form-control" style="width: 250px; height: 35px;">
+      <a href="#!">Напомнить пароь?</a>
+     <div class="form-check">
+    <input type="checkbox" checked="checked" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Запомнить меня</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Войти</button>
+  <a href="#!">Отмена</a>
+       </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Modal window from user-register-->
+
 
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.js"></script>

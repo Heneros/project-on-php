@@ -19,3 +19,10 @@
     $('#myInput').trigger('focus');
      })
   });
+
+  
+  $(document).ready(function () {
+    $('#userModal').on('hide.bs.modal', function () {
+    $('#myInput').trigger('focus');
+     })
+  });
